@@ -13,7 +13,7 @@ class Dog
 
   def breed
     if breed == "" || breed == " "
-      puts "Mutt"
+      return "Mutt"
     elsif
       @breed
     end
