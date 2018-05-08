@@ -1,10 +1,15 @@
 class Dog
-  def initialize(name)
+  def initialize(name, breed)
+    @name = name
+    @breed = name
+  end
+
+  def name=(name)
     @name = name
   end
 
-  def initialize(breed)
-    @breed = breed
+  def name
+    @name
   end
 
   def breed=(breed)
@@ -12,11 +17,8 @@ class Dog
   end
 
   def breed
-    if breed != "" || breed != " "
-      return "Mutt"
-    elsif
-      @breed
-    end
-
+    @breed
   end
+    
+    
 end
